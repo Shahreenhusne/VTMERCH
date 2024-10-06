@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* use custom fonts like this */
+@font-face {
+  font-family: 'Act_of_rejections';
+  src: url('./assets/fonts/Act_Of_Rejection/Act_Of_Rejection.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter 2';
+  src: url('./assets/fonts/Inter 2/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Inter 2';
+  src: url('./assets/fonts/Inter 2/Inter-VariableFont_opsz,wght.ttf') fortmat('truetype');
+  font-style: normal;
+}
+
+:root{
+  --primary-100: #EA2127;
+  --primary-200: linear-gradient(90deg, #EC3339 0%, #BB1117 100%);
+  --primary-300:  #111111;
+  --primary-400: #F6F5F5 ;
+  --secondary-100:#000000;
+  --secondary-200:linear-gradient(180deg, #DE2A2F 0%, #EF5256 100%);
+  ;
+  --white: #f4f4f4;
+  --black: #1b2121;
+}
+
+@layer utilities {
+    .large-typography {
+        font-size: 90px;
+        line-height: 114.4px;
+        letter-spacing: 10px;
+        text-align: center;
+  }
+    .md-typography{
+      font-size: 70px;
+      line-height: 64.4px;
+      letter-spacing: 7px;
+      text-align: center;
+
+  }
+      .sm-typography{
+        font-size: 52px;
+        line-height: 60.4px;
+        letter-spacing: 5px;
+        text-align: center;
+
+    }
+    .xs-typography{
+      font-size: 35px;
+      line-height: 54.4px;
+      letter-spacing: 2px;
+      text-align: center;
+
+    }
+    .header-typography{
+      font-size: 20px;
+      line-height: 40.4px;
+      letter-spacing: 1px;
+      
+
+    }
+    .hero-large-typography{
+      font-size: 140px;
+      font-weight: 400;
+      line-height: 168px;
+      letter-spacing: 1px;
+     
+      color: #FFFFFF66;
+    }
+    .hero-md-typography{
+      font-size: 80px;
+      font-weight: 200;
+      line-height: 140px;
+      letter-spacing: 0.5px;
+     
+      color: #FFFFFF66; 
+    }
+    .hero-sm-typography{
+      font-size: 65px;
+      font-weight: 100;
+      line-height: 75px;
+      letter-spacing: 0.3px;
+     
+      color: #FFFFFF66; 
+    }
+    .hero-typography{
+      font-size: 25px;
+      font-weight: 45;
+      line-height: 40px;
+      letter-spacing: 0.2px;
+      
+      color: #FFFFFF66; 
+    }
+    .h1-gradient {
+      background: linear-gradient(180deg, #DE2A2F 0%, #EF5256 100%);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    
+    
+
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "backgroundColor": "#ffffff00",
+        "imageSrc": "src/assets/hero-imgs/img1.jpg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    } ,
+    {
+        "backgroundColor": "#ffffff00",
+        "imageSrc": "src/assets/hero-imgs/img2.jpg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    },
+    {
+        "backgroundColor": "#ffffff00",
+        "imageSrc": "src/assets/hero-imgs/img3.jpeg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    },
+    {
+        "backgroundColor": "#ffffff00",
+        "imageSrc": "src/assets/hero-imgs/img4.jpg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    },
+    {
+        "backgroundColor": "#ffffff00",
+        "imageSrc": "src/assets/hero-imgs/img3.jpeg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    }
+]

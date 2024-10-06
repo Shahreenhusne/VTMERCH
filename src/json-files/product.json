@@ -1,0 +1,30 @@
+[
+    {
+        "backgroundColor": "#f4f4f4",
+        "imageSrc": "src/assets/productimgs/image1jpg.jpg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    } ,
+    {
+        "backgroundColor": "#f4f4f4",
+        "imageSrc": "src/assets/productimgs/image3.jpg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    },
+    {
+        "backgroundColor": "#f4f4f4",
+        "imageSrc": "src/assets/productimgs/image3.jpg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    },
+    {
+        "backgroundColor": "#f4f4f4",
+        "imageSrc": "src/assets/productimgs/image4.jpg",
+        "text": "Army Green Active Short Sleeve",
+        "price": "34.95",
+        "oldPrice": "34.95"
+    }
+]
