@@ -12,7 +12,7 @@ interface CartProps {
 const Cart: React.FC<CartProps> = ({ backgroundColor, imageSrc, text, price, oldPrice }) => {
   return (
     <div
-      className={`flex flex-col items-center rounded-md w-card-xs h-card-sm xs:w-card-sm  sm:w-card-half sm:h-card-md md:w-card-lg-half md:h-card large:w-card large:h-card-lg`}
+      className={`flex flex-col items-center rounded-md w-card-xs h-card-half xs:w-card-sm  sm:w-card-half sm:h-card-md md:w-card-lg-half md:h-card large:w-card large:h-card-lg`}
       style={{ backgroundColor  }} >
       {/* Image Section */}
       <div className="mb-4">

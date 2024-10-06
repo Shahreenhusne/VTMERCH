@@ -10,7 +10,7 @@ const ProductSection = () => {
            <h1 className=" font-montserrat text-black text-2xl sm:text-4xl md:text-6xl  m-1 font-extrabold">ON <span className="text-white text-stroke font-bold">BEST SELLING PRODUCTS</span></h1>
         </div>
         {/* cart */}
-        <div className="flex m-2 justify-center items-center space-x-4 w-[90%] mt-[5%]">
+        <div className="flex m-2 justify-center items-center space-x-4 w-[90%] mt-[5%] overflow-x-hidden">
                {cardData.map((item,index)=> (
                   <ProductCart
                   key={index}

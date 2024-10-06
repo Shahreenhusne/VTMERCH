@@ -14,7 +14,7 @@ const Hero = () => {
             <h1 className="absolute top-0 left-0 w-full  z-0 font-act_of_rejections font-bold hero-typography sm:hero-sm-typography md:hero-md-typography large:hero-typography">
             Future Looks Bright!
             </h1> 
-            <div className="relative top-6 sm:top-10 md:top-20 large:top-30 sm:ml-2 md:ml-4 large:ml-6 flex space-x-4 overflow-hidden">
+            <div className="relative top-6 sm:top-10 md:top-20 large:top-30 sm:ml-2 md:ml-4 large:ml-6 flex space-x-4 overflow-hidden overflow-x-hidden">
                {cardData.map((item,index)=> (
                   <Cart
                   key={index}
