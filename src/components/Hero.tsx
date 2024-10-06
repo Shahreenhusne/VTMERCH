@@ -2,6 +2,8 @@ import Cart from "./Cart"
 import Header from "./Header"
 import cardData from "../json-files/hero.json"
 
+
+
 const Hero = () => {
   return (
     <div className=" bg-primary-100 h-full pb-40">
@@ -17,7 +19,7 @@ const Hero = () => {
                   <Cart
                   key={index}
                   backgroundColor= {item.backgroundColor}
-                  imageSrc={item.imageSrc} // Replace with your image path or URL
+                  imageSrc={item.imageSrc}  // Replace with your image path or URL
                   text="Army Green Active Short Sleeve"
                   price="34.95"
                   oldPrice="34.95" // Optional, remove if you don't want to display old price

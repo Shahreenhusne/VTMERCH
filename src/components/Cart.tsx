@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 interface CartProps {
   backgroundColor: string;
   imageSrc: string;
