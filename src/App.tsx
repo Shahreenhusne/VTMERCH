@@ -6,12 +6,14 @@ import ProductSection from "./components/ProductSection";
 
 export default function App() {
   return (
-     <>
-     <Hero/>
+    <div className=" overflow-hidden">
+        <Hero/>
      <ProductSection/>
      <Collection/>
      <Footer/>
-     </>
+    </div>
+    
+     
 
   )
 }

@@ -6,7 +6,7 @@ import cardData from "../json-files/hero.json"
 
 const Hero = () => {
   return (
-    <div className=" bg-primary-100 h-full pb-40">
+    <div className=" bg-primary-100 h-full pb-40 w-full">
         <div className="relative z-2 p-4">
           <Header />
         </div>
